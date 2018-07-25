@@ -1,7 +1,7 @@
-Waves-Gateway-Framework
+Mebel-Gateway-Framework
 =========================
 
-A framework to connect other cryptocurrencies to the Waves platform.
+A framework to connect other cryptocurrencies to the Mebel platform.
 Requires Python 3.5 or newer.
 
 For detailed usage instructions please refer to the source code documentation that may be exported
@@ -19,7 +19,7 @@ How to install
 
 .. code:: bash
 
-    pip install waves-gateway
+    pip install mebel-gateway
 
 Required packages for development
 ---------------------------------
@@ -89,7 +89,7 @@ tool So, please format your code before commiting by running this:
 
 .. code:: bash
 
-    python3.5 -m yapf -r waves_gateway --style pep8 --style {COLUMN_LIMIT:120} -i
+    python3.5 -m yapf -r mebel_gateway --style pep8 --style {COLUMN_LIMIT:120} -i
 
 The pipeline will fail if the code is not properly formatted.
 
